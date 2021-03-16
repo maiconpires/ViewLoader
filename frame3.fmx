@@ -1,0 +1,97 @@
+object fra3: Tfra3
+  Opacity = 0.600000023841857900
+  Size.Width = 623.000000000000000000
+  Size.Height = 341.000000000000000000
+  Size.PlatformDefault = False
+  object Label1: TLabel
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.Y = -10.000000000000000000
+    Size.Width = 190.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.FontColor = claCrimson
+    TextSettings.HorzAlign = Center
+    Text = 'Frame 3'
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Anchors = [akTop, akRight]
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 433.000000000000000000
+    Position.Y = -9.000000000000000000
+    Size.Width = 190.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.FontColor = claDeeppink
+    TextSettings.HorzAlign = Center
+    Text = 'Frame 3'
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Align = Center
+    AutoSize = True
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 244.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Frame 3'
+    TabOrder = 0
+  end
+  object Label3: TLabel
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.Y = 292.000000000000000000
+    Size.Width = 190.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.FontColor = claOrange
+    TextSettings.HorzAlign = Center
+    Text = 'Frame 3'
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Anchors = [akRight, akBottom]
+    AutoSize = True
+    StyledSettings = [Family, Style]
+    Position.X = 432.000000000000000000
+    Position.Y = 292.000000000000000000
+    Size.Width = 190.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 36.000000000000000000
+    TextSettings.FontColor = claRoyalblue
+    TextSettings.HorzAlign = Center
+    Text = 'Frame 3'
+    TabOrder = 1
+  end
+  object edtInfo: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akRight, akBottom]
+    TabOrder = 6
+    Text = 'Product price'
+    Position.X = 464.000000000000000000
+    Position.Y = 263.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtNome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Anchors = [akLeft, akBottom]
+    TabOrder = 5
+    Text = 'Product Name'
+    Position.X = 32.000000000000000000
+    Position.Y = 263.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
